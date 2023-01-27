@@ -49,7 +49,8 @@ def threes(n):
     '''
 
     def has_three(n):
-        return 0
+        if "3" in str(n):
+            return int(n)
 
     new_function = has_three
 
