@@ -76,10 +76,10 @@ def small_words(text):
     ['a', 'big', 'word', 'is', 'bad']
     '''
 
-    def U4word(text):
+    def u4word(text):
         return len(text) <= 4
 
-    new_function = U4word
+    new_function = u4word
 
     word2 = list(filter(new_function, text.split()))
     return word2
